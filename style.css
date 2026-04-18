@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.project-header{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.cards {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.rubiks-cube {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.go-board {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blackjack-game {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chess {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo-filter {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.weather-app {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-card {
+    background-color: darkslateblue;
+    display: flex;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#project-modal[open] {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal-title, #modal-details, #modal-link {
+    text-align: center;
+}
+
+#modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  border: none;
+  background: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
